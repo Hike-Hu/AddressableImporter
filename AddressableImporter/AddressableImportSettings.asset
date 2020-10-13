@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457b6e6d3304bd46a31be63dad3325c, type: 3}
+  m_Name: AddressableImportSettings
+  m_EditorClassIdentifier: 
+  allowGroupCreation: 1
+  removeEmtpyGroups: 1
+  rules:
+  - path: Assets/Prefabs/kingdom/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: kingdom
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/combat/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: combat
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/group/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: group
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/json/*.json
+    ExcludeExt: []
+    matchType: 0
+    groupName: json
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/json2/*.json
+    ExcludeExt: []
+    matchType: 0
+    groupName: json2
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/texture/*.png
+    ExcludeExt: []
+    matchType: 0
+    groupName: texture
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/effect/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: effect
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/texture/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: texture
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/build/*.png
+    ExcludeExt: []
+    matchType: 0
+    groupName: build
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/chartalent/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: chartalent
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/cardpool/*.prefab
+    ExcludeExt: []
+    matchType: 0
+    groupName: cardpool
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/sound/*.mp3
+    ExcludeExt: []
+    matchType: 0
+    groupName: cardpool
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/Prefabs/censor/*.txt
+    ExcludeExt: []
+    matchType: 0
+    groupName: cardpool
+    LabelMode: 0
+    labelRefs:
+    - m_LabelString: default
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 0
+    simplified: 0
+    addressReplacement: 
